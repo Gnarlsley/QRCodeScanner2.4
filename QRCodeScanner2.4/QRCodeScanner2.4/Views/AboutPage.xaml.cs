@@ -30,11 +30,13 @@ namespace QRCodeScanner2._4.Views
             ScannerView.IsAnalyzing = true;
         }
 
-        private void save_button_Pressed(object sender, EventArgs e)
+        async private void save_button_Pressed(object sender, EventArgs e)
         {
-
             save_button.IsVisible = false;
-            scanResult.Text = "";
+            var label = this.FindByName<Label>("scanResult");
+            var resultsPage = new ItemsPage();
+            resultsPage.BindingContext = label;
+            await Navigation.PushAsync(resultsPage);
         }
     }
 }

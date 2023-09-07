@@ -19,7 +19,6 @@ namespace QRCodeScanner2._4.Views
         public ItemsPage()
         {
             InitializeComponent();
-
             BindingContext = _viewModel = new ItemsViewModel();
         }
     }
