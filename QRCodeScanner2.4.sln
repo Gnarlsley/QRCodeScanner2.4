@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeScanner2.4.Android", "QRCodeScanner2.4\QRCodeScanner2.4.Android\QRCodeScanner2.4.Android.csproj", "{709ED202-1041-4FB8-BA5B-5FFD66245E9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeScanner2.4", "QRCodeScanner2.4\QRCodeScanner2.4\QRCodeScanner2.4.csproj", "{7C6D993D-DE81-4911-A93C-615099194B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QRCodeScanner2.4", "QRCodeScanner2.4\QRCodeScanner2.4\QRCodeScanner2.4.csproj", "{7C6D993D-DE81-4911-A93C-615099194B13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -22,11 +22,5 @@ namespace QRCodeScanner2._4.Views
 
             BindingContext = _viewModel = new ItemsViewModel();
         }
-
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            _viewModel.OnAppearing();
-        }
     }
 }
