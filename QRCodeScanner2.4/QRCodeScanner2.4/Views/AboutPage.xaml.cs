@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -33,10 +34,7 @@ namespace QRCodeScanner2._4.Views
         async private void save_button_Pressed(object sender, EventArgs e)
         {
             save_button.IsVisible = false;
-            var label = this.FindByName<Label>("scanResult");
-            var resultsPage = new ItemsPage();
-            resultsPage.BindingContext = label;
-            await Navigation.PushAsync(resultsPage);
+            await Clipboard.SetTextAsync(scanResult.Text);
         }
     }
 }
