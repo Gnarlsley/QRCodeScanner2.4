@@ -2,7 +2,10 @@
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+/** Name: Garrett, Parker
+ * Date: 9/14/23
+ * Purpose: cs file defining functions and displaying scanned url to label
+ */
 namespace QRCodeScanner2._4.Views
 {
     public partial class AboutPage : ContentPage

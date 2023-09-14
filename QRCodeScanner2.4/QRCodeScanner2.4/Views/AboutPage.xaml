@@ -1,4 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+    <!--Name: Garrett, Parker
+    Date: 9/14/23
+    Purpose: Visual layout of app interface, buttons and scanner call functions from AboutPage.cs
+    -->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="QRCodeScanner2._4.Views.AboutPage"
