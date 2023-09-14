@@ -27,6 +27,7 @@
 
         </Frame>
         <Label x:Name="scanResult" HorizontalTextAlignment="Center" TextColor="RoyalBlue" FontSize="12" BackgroundColor="Coral"/>
+        <Button Text="Save URL" x:Name="save_button" IsVisible="False" Pressed="save_button_Pressed"></Button>
         <zxing:ZXingScannerView x:Name="ScannerView" IsScanning="False" IsAnalyzing="False" OnScanResult="ZXingScannerView_OnScanResult"/>
         <Button Text="Scan" Pressed="scan_button_Pressed" x:Name="scan_button"></Button>
     </StackLayout>
